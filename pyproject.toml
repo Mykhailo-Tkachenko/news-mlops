@@ -2,7 +2,10 @@
 name = "news-mlops"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dvc==3.67.1",
+    "dvc-s3==3.3.0",
+]
 
 [dependency-groups]
 dev = [
